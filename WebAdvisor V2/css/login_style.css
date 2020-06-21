@@ -2,12 +2,17 @@
     --primary-color: #C20430;
     --secondary-color: #000000;
     --uog-yellow: #FFC72A;
+    --uog-blue: #69A3B9;
 }
 
 input {
     text-decoration: none;
     border: none;
     background: none;
+}
+
+input:focus {
+    outline: none;
 }
 
 * {
@@ -19,19 +24,12 @@ input {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: #fff;
+    background: #fffef7;
     color: #999;
 }
 
 ul {
     list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: #fff;
 }
 
 a {
@@ -69,4 +67,58 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.login-form h3 {
+    color: rgb(90, 90, 90);
+    font-size: 1.5rem;
+}
+
+.login-form {
+    width: 360px;
+    background: #fffef7;
+    height: 580px;
+    padding: 80px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    border-width: 1px;
+    border-style: dotted;
+    border-color: var(--uog-blue);
+}
+
+.fields {
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 30px 0;
+}
+
+.fields input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+}
+
+.login-btn {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--uog-yellow);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: thin;
+    border-style: solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 35%;
+    height: 9%;
+    margin-top: 35px;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
 }

@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
+
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/login_style.css">
@@ -16,14 +21,21 @@
 
 <body>
     <div class="header">
-        <h2>WebAdvisor.</h2>
+        <h2>WebAdvisor</h2>
     </div>
     <content>
-        <h3>
-            WebAdvisor Login
-        </h3>
-
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <div class="login-form">
+            <h3>
+                Log into WebAdvisor!
+            </h3>
+            <div class="fields">
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+            <div class="fields">
+                <input type="password" placeholder="Enter Password" name="pwd" required>
+            </div>
+            <input class="login-btn" type="submit" name="" value="Login">
+        </div>
     </content>
 </body>
 

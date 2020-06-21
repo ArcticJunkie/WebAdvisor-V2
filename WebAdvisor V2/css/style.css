@@ -90,7 +90,7 @@ img {
 .top-bar li {
     font-weight: 550;
     margin: 25px;
-    font-size: 1.35rem;
+    font-size: 1.55rem;
     color: rgb(255, 255, 255);
 }
 
@@ -101,11 +101,16 @@ img {
 .context-bar {
     position: relative;
     height: 80px;
+    margin-left: -65px;
     background: var(--uog-yellow);
 }
 
 .context-bar a {
     color: #000;
+}
+
+.context-bar ul {
+    width: 100%;
 }
 
 .context-bar button {
@@ -114,6 +119,7 @@ img {
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(26, 26, 26);
     font-size: 1.35rem;
+    letter-spacing: .25px;
     cursor: pointer;
 }
 
@@ -127,8 +133,8 @@ img {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 35%;
-    margin-left: 48%;
+    width: 45%;
+    margin-left: 40.15%;
 }
 
 .registration,
